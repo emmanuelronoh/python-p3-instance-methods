@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 
-class Person:
-    # Class body goes here
+import types
 
-    #Instance method definition
-    pass
+class Person:
+    def talk(self):
+        '''Prints a talking message'''
+        print("Hello World!")
+
+    def walk(self):
+        '''Prints a walking message'''
+        print("The person is walking.")
